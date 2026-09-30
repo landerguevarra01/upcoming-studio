@@ -37,22 +37,22 @@ export default function Home() {
         <div className="flex flex-col items-center justify-center gap-6 text-center sm:items-start sm:text-left">
           {/* COMING */}
           <div className="flex items-center text-[clamp(4rem,14vw,10rem)] font-black text-black dark:text-white leading-3.5">
-            <span className="mt-4">C</span>
+            <span className="mt-1.75 lg:mt-3.5 xl:mt-4.5">C</span>
             {/* O */}
             <span
               className={`mx-[0.03em] h-[0.74em] rounded-4xl border-[0.13em] border-black transition-[width] duration-700 ease-in-out dark:border-white ${pick(comingOWidths, comingOIndex)}`}
             />
-            <span className="mt-4">M</span>
+            <span className="mt-1.75 lg:mt-3.5 xl:mt-4.5">M</span>
             {/* I */}
             <span
               className={`mx-[0.03em] h-[0.735em] bg-black dark:bg-white transition-[width] duration-700 ease-in-out ${pick(comingIWidths, comingIIndex)}`}
             />
-            <span className="mt-4">NG</span>
+            <span className="mt-1.75 lg:mt-3.5 xl:mt-4.5">NG</span>
           </div>
 
           {/* SOON */}
           <div className="flex items-center text-[clamp(4rem,14vw,10rem)] font-black text-black dark:text-white leading-3.5">
-            <span className="mt-4">S</span>
+            <span className="mt-1.75 lg:mt-3.5 xl:mt-4.5">S</span>
             {/* first O */}
             <span
               className={`mx-[0.03em] h-[0.74em] rounded-4xl border-[0.13em] border-black transition-[width] duration-700 ease-in-out dark:border-white ${pick(soonWidths, soonIndex)}`}
@@ -61,7 +61,7 @@ export default function Home() {
             <span
               className={`mx-[0.03em] h-[0.74em] rounded-4xl border-[0.13em] border-black transition-[width] duration-700 ease-in-out dark:border-white ${pick(soonWidths, soonIndex, 1)}`}
             />
-            <span className="mt-4">N</span>
+            <span className="mt-1.75 lg:mt-3.5 xl:mt-4.5">N</span>
           </div>
         </div>
       </main>
