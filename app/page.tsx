@@ -40,7 +40,7 @@ export default function Home() {
             <span className="mt-1.75 lg:mt-3.5 xl:mt-4.5">C</span>
             {/* O */}
             <span
-              className={`mx-[0.03em] h-[0.74em] rounded-4xl border-[0.13em] border-black transition-[width] duration-700 ease-in-out dark:border-white ${pick(comingOWidths, comingOIndex)}`}
+              className={`mx-[0.03em] h-[0.74em] rounded-2xl md:rounded-4xl border-[0.13em] border-black transition-[width] duration-700 ease-in-out dark:border-white ${pick(comingOWidths, comingOIndex)}`}
             />
             <span className="mt-1.75 lg:mt-3.5 xl:mt-4.5">M</span>
             {/* I */}
@@ -55,11 +55,11 @@ export default function Home() {
             <span className="mt-1.75 lg:mt-3.5 xl:mt-4.5">S</span>
             {/* first O */}
             <span
-              className={`mx-[0.03em] h-[0.74em] rounded-4xl border-[0.13em] border-black transition-[width] duration-700 ease-in-out dark:border-white ${pick(soonWidths, soonIndex)}`}
+              className={`mx-[0.03em] h-[0.74em] rounded-2xl md:rounded-4xl border-[0.13em] border-black transition-[width] duration-700 ease-in-out dark:border-white ${pick(soonWidths, soonIndex)}`}
             />
             {/* second O */}
             <span
-              className={`mx-[0.03em] h-[0.74em] rounded-4xl border-[0.13em] border-black transition-[width] duration-700 ease-in-out dark:border-white ${pick(soonWidths, soonIndex, 1)}`}
+              className={`mx-[0.03em] h-[0.74em] rounded-2xl md:rounded-4xl border-[0.13em] border-black transition-[width] duration-700 ease-in-out dark:border-white ${pick(soonWidths, soonIndex, 1)}`}
             />
             <span className="mt-1.75 lg:mt-3.5 xl:mt-4.5">N</span>
           </div>
